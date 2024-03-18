@@ -3,7 +3,7 @@ import logging
 import pandas as pd
 import pygsheets as pg
 import sys
-from .Google_auth import gkey
+from Google_auth import gkey
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 import pytz
