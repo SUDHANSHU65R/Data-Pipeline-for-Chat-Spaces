@@ -5,7 +5,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 import pygsheets as pg
 
-# Define the Google API scopes
+# Define the Google API scopes for Google Drive, Classroom, Gmail, Chat
 SCOPES = [
     "https://www.googleapis.com/auth/contacts.readonly",
     "https://www.googleapis.com/auth/chat.spaces.readonly",
