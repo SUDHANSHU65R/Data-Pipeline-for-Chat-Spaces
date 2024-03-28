@@ -1,6 +1,5 @@
-#from msilib import schema
-import psycopg2
-import pygsheets as pg
+# Important Libraries
+
 import snowflake.connector as sc
 from datetime import datetime
 import pandas as pd
