@@ -1,4 +1,4 @@
-# Google Chat Exporter
+# Google Chat Spaces Pipeline
 
 A Python script to export chat messages from Google Chat and update a Google Sheet and Snowflake database.
 
